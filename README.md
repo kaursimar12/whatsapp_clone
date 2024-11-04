@@ -37,32 +37,32 @@ This is a WhatsApp-inspired mobile application built with React Native, featurin
    ```
 
 
-3. ### Configure Clerk
-
-   1. Sign up at [Clerk.dev](https://clerk.dev) and create an application to generate OTP login keys.
-   2. Create a `.env` file in the root directory and add the following:
+3. ### Configure Clerk:
+   -Sign up at [Clerk.dev](https://clerk.dev) and create an application to generate OTP login keys.
+   -Create a `.env` file in the root directory and add the following:
    
-       ```plaintext
-       CLERK_FRONTEND_API=<Your Clerk Frontend API>
-       CLERK_API_KEY=<Your Clerk API Key>
+    ```plaintext
+    CLERK_FRONTEND_API=<Your Clerk Frontend API>
+    CLERK_API_KEY=<Your Clerk API Key>
     ```
-4. ### Run the App:
+       
+5. ### Run the App:
 
-   Start the Expo development server:
-   ```bash
-   npm start
-   ```
-   Use Expo Go or an emulator to view the app.
+   -Start the Expo development server:
+      ```bash
+      npm start
+      ```
+   -Use Expo Go or an emulator to view the app.
    
-5. ### Usage
+6. ### Usage
 
-- **Login**: Enter a phone number to receive an OTP, log in, and access the app.
-- **Explore the App**: Navigate through Chats, Status, Calls, and Settings. Each section is pre-populated with sample data to demonstrate the app’s flow and layout.
+   - **Login**: Enter a phone number to receive an OTP, log in, and access the app.
+   - **Explore the App**: Navigate through Chats, Status, Calls, and Settings. Each section is pre-populated with sample data to demonstrate the app’s flow and layout.
 
 6. ### Technologies Used
 
-- **React Native**
-- **Expo**
-- **Clerk** for authentication
-- **@expo/vector-icons** for a polished UI
-- **React Navigation** for smooth navigation
+   - **React Native**
+   - **Expo**
+   - **Clerk** for authentication
+   - **@expo/vector-icons** for a polished UI
+   - **React Navigation** for smooth navigation
