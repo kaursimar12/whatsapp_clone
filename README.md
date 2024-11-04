@@ -24,7 +24,7 @@ This is a WhatsApp-inspired mobile application built with React Native, featurin
    ```bash
    git clone https://github.com/yourusername/whatsapp-clone.git
    cd whatsapp-clone
-Install Dependencies:
+2. ### Install Dependencies:
 
 bash
 Copy code
