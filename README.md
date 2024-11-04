@@ -26,16 +26,15 @@ This is a WhatsApp-inspired mobile application built with React Native, featurin
    cd whatsapp-clone
 2. ### Install Dependencies:
    Using npm:
-
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 
 or if using yarn:
-
 ```bash
 yarn install
+```
 
 
 3. ### Configure Clerk:
