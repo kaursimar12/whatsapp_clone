@@ -38,8 +38,8 @@ This is a WhatsApp-inspired mobile application built with React Native, featurin
 
 
 3. ### Configure Clerk:
-   -Sign up at [Clerk.dev](https://clerk.dev) and create an application to generate OTP login keys.
-   -Create a `.env` file in the root directory and add the following:
+   - Sign up at [Clerk.dev](https://clerk.dev) and create an application to generate OTP login keys.
+   - Create a `.env` file in the root directory and add the following:
    
     ```plaintext
     CLERK_FRONTEND_API=<Your Clerk Frontend API>
@@ -48,11 +48,11 @@ This is a WhatsApp-inspired mobile application built with React Native, featurin
        
 5. ### Run the App:
 
-   -Start the Expo development server:
+   - Start the Expo development server:
       ```bash
       npm start
       ```
-   -Use Expo Go or an emulator to view the app.
+   - Use Expo Go or an emulator to view the app.
    
 6. ### Usage
 
