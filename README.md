@@ -24,21 +24,42 @@ This is a WhatsApp-inspired mobile application built with React Native, featurin
    ```bash
    git clone https://github.com/yourusername/whatsapp-clone.git
    cd whatsapp-clone
-2. **Install Dependencies**:
+Install Dependencies:
 
-```bash
+bash
+Copy code
 npm install
-
 or if using yarn:
 
-```bash
+bash
+Copy code
 yarn install
-
-3. **Configure Clerk**:
+Configure Clerk:
 
 Sign up at Clerk.dev and create an application to generate OTP login keys.
 Create a .env file in the root directory and add the following:
-
-```bash
+plaintext
+Copy code
 CLERK_FRONTEND_API=<Your Clerk Frontend API>
 CLERK_API_KEY=<Your Clerk API Key>
+Run the App:
+
+Start the Expo development server:
+bash
+Copy code
+npm start
+Use Expo Go or an emulator to view the app.
+Usage
+Login:
+
+Enter a phone number to receive an OTP, log in, and access the app.
+Explore the App:
+
+Navigate through Chats, Status, Calls, and Settings.
+Each section is pre-populated with sample data to demonstrate the app’s flow and layout.
+Technologies Used
+React Native
+Expo
+Clerk for authentication
+@expo/vector-icons for a polished UI
+React Navigation for smooth navigation
