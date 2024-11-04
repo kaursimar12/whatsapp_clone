@@ -25,16 +25,19 @@ This is a WhatsApp-inspired mobile application built with React Native, featurin
    git clone https://github.com/yourusername/whatsapp-clone.git
    cd whatsapp-clone
 2. ### Install Dependencies:
+   Using npm:
 
-bash
-Copy code
+```bash
 npm install
+
+
 or if using yarn:
 
-bash
-Copy code
+```bash
 yarn install
-Configure Clerk:
+
+
+3. ### Configure Clerk:
 
 Sign up at Clerk.dev and create an application to generate OTP login keys.
 Create a .env file in the root directory and add the following:
