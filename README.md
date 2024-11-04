@@ -28,7 +28,8 @@ This is a WhatsApp-inspired mobile application built with React Native, featurin
    Using npm:
 
 ```bash
-npm install```
+npm install
+```
 
 
 or if using yarn:
